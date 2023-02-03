@@ -5,6 +5,7 @@ namespace CRUD.Server.Models;
 //Representara la estuctura de datos del usuario. (La Tabla en la DB).
 public class Usuario
 {
+    
     [Key]
     public int Id { get; set; }
     public int UsuarioRolId { get; set; }
